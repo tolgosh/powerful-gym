@@ -1,21 +1,3 @@
-
-## Setup and Usage
-
-1. **Clone the repository:**
-    ```sh
-    git clone https://github.com/tolgosh/Powerfull-Gym-Website
-    ```
-
-2. **Navigate to the project directory:**
-    ```sh
-    cd powerfull-gym-website
-    ```
-
-3. **Open `index.html` in your preferred browser to view the website.**
-
-4. **Live Server:**
-    If you have the Live Server extension in Visual Studio Code, you can right-click `index.html` and select "Open with Live Server" to see the website with automatic reloads on changes.
-
 ## Features Description
 
 ### 1. Home Section
@@ -49,10 +31,6 @@
 
 You can watch a demo of the project [here](https://www.youtube.com/watch?v=BvyR9wtpKmw).
 
-## Contributing
+## Project Link
 
-Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+https://stellular-griffin-29dfe1.netlify.app
