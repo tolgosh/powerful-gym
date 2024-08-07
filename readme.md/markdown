@@ -1,0 +1,22 @@
+# Powerfull Gym Website
+
+This is a responsive website for Powerfull Gym, showcasing various fitness classes, trainers, a BMI calculator, and a section for purchasing gym equipment. The site is designed to provide an overview of the gym's offerings and facilitate user engagement.
+
+## Features
+
+- **Responsive Design:** The website is fully responsive and works well on various screen sizes, including mobile devices.
+- **Interactive Elements:** Includes interactive buttons for class selection and a BMI calculator.
+- **Dynamic Content:** Sections for trainers and gym equipment with dynamic content presentation.
+- **Google Map Integration:** Displays an interactive Google Map in the contact section.
+- **Navigation Bar:** Fixed navigation bar with smooth scrolling to different sections of the page.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- Bootstrap 4
+- JavaScript
+- Google Maps API
+
+## Project Structure
+

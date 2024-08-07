@@ -1,0 +1,58 @@
+
+## Setup and Usage
+
+1. **Clone the repository:**
+    ```sh
+    git clone https://github.com/tolgosh/Powerfull-Gym-Website
+    ```
+
+2. **Navigate to the project directory:**
+    ```sh
+    cd powerfull-gym-website
+    ```
+
+3. **Open `index.html` in your preferred browser to view the website.**
+
+4. **Live Server:**
+    If you have the Live Server extension in Visual Studio Code, you can right-click `index.html` and select "Open with Live Server" to see the website with automatic reloads on changes.
+
+## Features Description
+
+### 1. Home Section
+- A welcoming section with a background image, a motivational quote, and buttons for signing up and viewing details.
+
+### 2. Our Classes Section
+- Interactive buttons to show different types of classes (Yoga, Group, Solo, Stretching).
+- Each class displays a relevant image and a brief description.
+
+### 3. BMI Calculator
+- Allows users to input their height and weight to calculate their BMI.
+- Displays the BMI value and a visual representation of the BMI range.
+
+### 4. Our Best Trainers
+- Shows three trainers with images and descriptions.
+- The third image acts as a hover effect for the other two trainers.
+
+### 5. Purchase From Us
+- Display of gym equipment available for purchase with images, titles, prices, and "Add to Cart" buttons.
+
+### 6. Review Client
+- Showcases two client reviews with images and testimonials.
+
+### 7. Contact Us
+- A form for users to send messages and an embedded Google Map for location details.
+
+### 8. Footer
+- Contains additional information about the gym, useful links, and contact details.
+
+## Project Demo
+
+You can watch a demo of the project [here](https://www.youtube.com/watch?v=BvyR9wtpKmw).
+
+## Contributing
+
+Contributions are welcome! Please fork this repository and submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
