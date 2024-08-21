@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Powerfull Gym</title>
+    <title>Powerful Gym</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Powerfull Gym Logo"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Powerful Gym Logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,8 +35,8 @@
         <div class="container text-center">
             <h1 class="display-4">Group Practice With Trainer</h1>
             <p class="lead">Achieve your fitness goals with our expert trainers and state-of-the-art facilities.</p>
-            <a href="#" class="btn btn-primary btn-lg">Sign Up</a>
-            <a href="#" class="btn btn-warning btn-lg">Details</a>
+            <a href="#classes" class="btn btn-primary btn-lg">Sign Up</a>
+            <a href="#contact" class="btn btn-warning btn-lg">Details</a>
         </div>
     </header>
 
@@ -103,10 +106,12 @@
             <form onsubmit="calculateBMI(event)">
                 <div class="form-row justify-content-center">
                     <div class="col-md-3 mb-3">
-                        <input type="text" id="height" class="form-control" placeholder="Your Height (cm)">
+                        <label for="height">Your Height (cm)</label>
+                        <input type="number" id="height" class="form-control" placeholder="Your Height (cm)">
                     </div>
                     <div class="col-md-3 mb-3">
-                        <input type="text" id="weight" class="form-control" placeholder="Your Weight (kg)">
+                        <label for="weight">Your Weight (kg)</label>
+                        <input type="number" id="weight" class="form-control" placeholder="Your Weight (kg)">
                     </div>
                     <div class="col-md-3 mb-3">
                         <button type="submit" class="btn btn-primary btn-block">Calculate BMI</button>
@@ -229,19 +234,24 @@
             <form>
                 <div class="form-row">
                     <div class="col-md-6 mb-3">
-                        <input type="text" class="form-control" placeholder="Your Name">
+                        <label for="name">Your Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
                     </div>
                     <div class="col-md-6 mb-3">
-                        <input type="email" class="form-control" placeholder="Your Email">
+                        <label for="email">Your Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Your Email">
                     </div>
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+                    <label for="message">Your Message</label>
+                    <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
                 </div>
                 <button type="submit" class="btn btn-primary btn-block">Send Message</button>
             </form>
             <div class="map mt-5">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0192602165977!2d-122.42114858467948!3d37.77851997975757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b3a7e111f%3A0x1a0f0e6b8d3d3d4f!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1604079552063!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0192602165977!2d-122.42114858467948!3d37.77851997975757!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808b3a7e111f%3A0x1a0f0e6b8d3d3d4f!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1604079552063!5m2!1sen!2sus"
+                    width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+                    aria-hidden="false" tabindex="0"></iframe>
             </div>
         </div>
     </section>
@@ -251,25 +261,26 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 text-left">
-                    <img src="images/logo.png" alt="Powerfull Gym Logo" style="max-width: 80px;">
-                    <p class="mt-2">Powerfull Gym is dedicated to helping you achieve your fitness goals with top-notch equipment and expert trainers.</p>
+                    <img src="images/logo.png" alt="Powerful Gym Logo" style="max-width: 80px;">
+                    <p class="mt-2">Powerful Gym is dedicated to helping you achieve your fitness goals with top-notch
+                        equipment and expert trainers.</p>
                 </div>
                 <div class="col-md-4">
                     <h5>Information</h5>
                     <ul>
-                        <li>About Us</li>
-                        <li>Classes</li>
-                        <li>Blog</li>
-                        <li>Contact</li>
+                        <li><a href="#about" class="text-white">About Us</a></li>
+                        <li><a href="#classes" class="text-white">Classes</a></li>
+                        <li><a href="#blog" class="text-white">Blog</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-md-4">
                     <h5>Helpful Links</h5>
                     <ul>
-                        <li>Services</li>
-                        <li>Supports</li>
-                        <li>Terms & Conditions</li>
-                        <li>Privacy Policy</li>
+                        <li><a href="#services" class="text-white">Services</a></li>
+                        <li><a href="#supports" class="text-white">Supports</a></li>
+                        <li><a href="#terms" class="text-white">Terms & Conditions</a></li>
+                        <li><a href="#privacy" class="text-white">Privacy Policy</a></li>
                     </ul>
                 </div>
             </div>
@@ -281,4 +292,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

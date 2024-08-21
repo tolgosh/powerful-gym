@@ -1,11 +1,13 @@
 /* Genel stil */
-body {
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
     font-family: 'Arial', sans-serif;
     padding-top: 56px;
     line-height: 1.6;
     background-color: #f4f4f9;
-    max-width: 100%;
-    overflow-x: hidden;
 }
 
 /* Navbar */
@@ -97,6 +99,7 @@ section h2 {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
+    transition: transform 0.3s ease; /* Hover için geçiş ekledik */
 }
 .trainer-card h5 {
     margin-top: 15px;
@@ -106,6 +109,11 @@ section h2 {
 .trainer-card p {
     font-size: 1.1rem;
     color: #666;
+}
+
+/* Hover efekti eklendi */
+.trainer-card:hover img {
+    transform: scale(1.05);
 }
 
 /* Purchase Section */
@@ -190,7 +198,7 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    text-decoration: underline;
+    color: #ccc; /* Hover efekti eklendi */
 }
 
 /* Extra Classes for Spacing and Alignment */
@@ -210,19 +218,49 @@ footer a:hover {
 /* Media Queries for Responsive Design */
 @media (max-width: 576px) {
     header .display-4 {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
     header .lead {
-        font-size: 0.9rem;
+        font-size: 1rem;
     }
     section {
-        padding: 20px 0;
+        padding: 30px 0;
     }
     .trainer-card img, .class-item img, .card img, .review-card img {
         max-width: 100%;
         height: auto;
     }
     section h2 {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
+    /* Mobil cihazlar için ek stiller */
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .navbar {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Tabletler için Media Query */
+@media (min-width: 768px) and (max-width: 991px) {
+    section {
+        padding: 45px 0;
+    }
+    section h2 {
+        font-size: 2.25rem;
+    }
+}
+
+/* Box Sizing - Tüm elementlerde kenar boşluklarını hesaba kat */
+* {
+    box-sizing: border-box;
 }
